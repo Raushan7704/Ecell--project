@@ -1,0 +1,187 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+ /* 
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }*/
+  .container{
+    font-size:20px;
+    padding:17px;
+    margin-left:30px;
+    
+    font-weight:400;
+    
+  }
+  
+
+
+
+  /* Navigation Styles */
+nav {
+    background-color: #39156c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    
+        color: #ff7200;
+        font-size: 35px;
+        font-family: Arial;
+        padding-left: 20px;
+        padding-top: 10px;
+    
+    
+  }
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+    padding: 20px;
+  }
+  
+  .nav-links a {
+    color: #218d17;
+    text-decoration: none;
+  }
+  .burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px;
+  }
+  /* Hero Section Styles */
+.hero {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    color: #3c9c04;
+    margin-bottom: 40px;
+  }
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #b03636;
+  }
+  
+  /* About Section Styles */
+  .about {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    color: #777777;
+  }
+  /* skills Section Styles */
+.skills {
+    background-color:#21b400;
+    padding: 100px 0;
+  }
+  
+  .skills h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .skills-item {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .skills-item img {
+    width: 100%;
+    max-width: 300px;
+   height: auto;
+   margin-bottom: 20px;
+   border-radius: 5px;
+}
+/* Contact Section Styles */
+.contact {
+    padding: 100px 0;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .contact input,
+  .contact textarea,
+  .contact button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .contact button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact button:hover {
+    background-color: #21b400;
+  }
+  /* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
